@@ -1,0 +1,21 @@
+Welcome to our tutorial on TCP!
+
+TCP stands for Transmission Control Protocol, and it's a protocol used for reliable and ordered delivery of data between two devices on a network.
+
+TCP works by establishing a connection between two devices, also known as a TCP handshake. During the handshake, the devices exchange information about how they will communicate, such as the initial sequence numbers and the maximum amount of data they can send.
+
+Once the connection is established, the devices can start exchanging data using TCP segments. Each TCP segment contains a sequence number, which allows the receiver to ensure that the segments are received in the correct order and without any missing data.
+
+TCP also includes mechanisms for flow control and congestion control, which help to ensure that the network is not overwhelmed with too much data at once.
+
+In this tutorial, we'll cover the following topics:
+
+1. TCP handshake: We'll explain how the TCP handshake works and the information that's exchanged during the handshake.
+
+2. TCP segments: We'll discuss how TCP segments are used to transmit data and how they ensure reliable and ordered delivery.
+
+3. Flow control: We'll explain how TCP implements flow control to prevent data loss and improve performance.
+
+4. Congestion control: We'll discuss how TCP implements congestion control to prevent network congestion and improve performance.
+
+By the end of this tutorial, you'll have a solid understanding of TCP and how it's used to transmit data between devices on a network. Let's get started!
